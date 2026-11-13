@@ -1,0 +1,8 @@
+html,body{margin:0;background:#FCF8F3}
+*{box-sizing:border-box}
+a{-webkit-tap-highlight-color:transparent}
+.mobile{display:none}
+.mobile-frame{width:390px;margin:0 auto}
+.desktop{display:block}
+/* phones and small tablets get the mobile design, everything wider gets the desktop design */
+@media (max-width:767px){.mobile{display:block}.desktop{display:none}}
